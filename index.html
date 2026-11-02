@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GLF Obsidian Sync — Accueil</title><meta name="description" content="Informations publiques sur l'utilisation personnelle de rclone pour synchroniser un coffre Obsidian avec Google Drive."><style>
+:root{color-scheme:light dark;font-family:system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.65}
+body{max-width:760px;margin:48px auto;padding:0 22px}
+h1{line-height:1.2}a{color:#7d62dd}nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:32px}
+aside{border-left:4px solid #7d62dd;padding:10px 16px;background:rgba(125,98,221,.08)}
+footer{margin-top:48px;font-size:.9rem;opacity:.8}
+</style></head>
+<body>
+<nav aria-label="Navigation"><a href="./">Accueil</a><a href="privacy.html">Politique de confidentialité</a></nav>
+<main>
+<h1>GLF Obsidian Sync</h1>
+<p>GLF Obsidian Sync désigne une configuration personnelle de <a href="https://rclone.org/">rclone</a> utilisée pour synchroniser des fichiers Markdown d'un coffre <a href="https://obsidian.md/">Obsidian</a> local avec un dossier Google Drive choisi par son propriétaire.</p>
+<h2>Fonctionnement</h2>
+<ul>
+<li>L'utilisateur lance la synchronisation depuis son ordinateur.</li>
+<li>Google OAuth 2.0 autorise rclone à accéder à Google Drive avec le compte choisi.</li>
+<li>rclone peut lire, créer, modifier et supprimer des fichiers Google Drive selon les opérations de synchronisation demandées. L'autorisation Google Drive peut être étendue au Drive du compte, même si la configuration vise un dossier particulier.</li>
+<li>Les contenus de la mémoire Obsidian restent privés : ils ne sont pas publiés sur ce site.</li>
+</ul>
+<aside>Ce site est uniquement une présentation publique de la configuration OAuth. Il n'héberge pas le coffre, n'offre pas de connexion utilisateur et ne déclenche aucune synchronisation.</aside>
+<p>Consultez la <a href="privacy.html">politique de confidentialité</a> pour les détails sur les données et les autorisations.</p>
+</main>
+<footer>Projet personnel — <a href="https://github.com/mykidou/obsidian-oauth-pages">Code de ces pages publiques</a> · <a href="https://github.com/mykidou">Contact via GitHub</a></footer>
+</body></html>
